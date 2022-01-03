@@ -1,7 +1,7 @@
 {
   "tests": [
     {
-      "name": "Conditional Activity",
+      "name": "Conditionals Activity",
       "setup": "",
       "run": "node tests.js",
       "input": "",
