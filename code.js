@@ -16,7 +16,10 @@ console.log("Exercise One"); // Do not modify the lines like this before each ex
 // - Your code should output the message to the console.
 //
 // Write your code here 👇
-let number = 5;
+let number = 11;
+if (number > 10) {
+    console.log("It is bigger than 10!");
+}
 
 
 // ----------------------------------------------------------------------------------------------
@@ -31,7 +34,16 @@ console.log("Exercise Two");
 //     The correct message should log to the console.
 //
 // Write your code here 👇
-let color = "";
+let color = "purple";
+if (color === "blue"){
+    console.log("The sky is blue.");
+} else if (color === "red"){
+    console.log("The flower is red.");
+} else if (color === "green"){
+    console.log("The Leaf is green.");
+} else {
+    console.log("It is a different color.");
+}
 
 
 // ----------------------------------------------------------------------------------------------
@@ -45,7 +57,12 @@ console.log("Exercise Three");
 //   code works.
 //
 // Write your code here 👇
-let value = 4;
+let value = 5;
+if (value % 2 === 0){
+    console.log("The number is even.");
+} else {
+    console.log("The number is odd.");
+}
 
 
 // ----------------------------------------------------------------------------------------------
@@ -69,7 +86,16 @@ console.log("Exercise Four");
 //     (like: if (a && b) )
 //
 // Write your code here 👇
-
+let integer = 22;
+if (integer === 16){
+    console.log("16!");
+} else if (integer > 10 && integer < 20){
+    console.log("Between 10 and 20!");
+} else if (integer >= 20){
+    console.log("20 or greater!");
+} else if (integer <= 10){
+    console.log("10 or less!")
+}
 
 
 // When you are done with all of the exercises, check your console output to make sure it
